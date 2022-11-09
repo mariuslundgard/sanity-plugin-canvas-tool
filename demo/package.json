@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "sanity-plugin-canvas-tool-demo",
+  "version": "0.0.0-development",
+  "main": "package.json",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "build": "sanity build",
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "type-check": "tsc --build"
+  },
+  "dependencies": {
+    "@sanity/ui": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "sanity": "^3.0.6",
+    "sanity-plugin-canvas-tool": "workspace:*",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4",
+    "vite": "^3.2.5"
+  }
+}

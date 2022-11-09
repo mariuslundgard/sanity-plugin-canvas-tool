@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "sanity",
+    "sanity/typescript",
+    "sanity/react",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["import"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "caseInsensitive": true,
+          "order": "asc"
+        }
+      }
+    ],
+    "react/require-default-props": "off"
+  }
+}
